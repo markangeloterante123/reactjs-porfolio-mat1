@@ -1,0 +1,365 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+	.Title-info {
+		padding-left: 3vh;
+
+		span {
+			font-weight:bold;
+			display:block;
+			justify-content:center;
+			padding-bottom: 3vh;
+		}
+	}
+	.post-title {
+		span {
+			display: block;
+			padding-bottom: 2vh;
+		}
+	}
+   	.successStar{
+   		color:rgba(219, 57, 36, 0.8);
+   		text-shadow:0 0 10px #fff,
+   					0 0 20px #fff,
+   					0 0 40px #fff,
+   					0 0 80px #fff;
+   	}
+   	.name-title{
+   		display:flex;
+   		justify-content:center;
+   		align-text:center;
+   		text-shadow:0 0 10px #fff,
+   					0 0 20px #fff,
+   					0 0 40px #fff,
+   					0 0 80px #fff;
+   	}
+   	.animation-comment {
+   		display:flex;
+   		justify-content:center;
+   		align-text:center;
+   		font-size: 16px;	
+   		font-weight: 700px;
+   		color: #000;
+   		text-shadow:0 0 1px cyan,
+   					0 0 2px cyan,
+   					0 0 4px cyan,
+
+   	}
+}
+body {
+	
+	font-size: 20px;
+  	color: #212529;
+  	font-family: 'Lora', 'Times New Roman', serif;
+  	background:#f2f2f2;
+  	@import './nav.scss';
+  	@import './hero.scss';
+}
+.default-logo {
+	display:flex;
+	item-align:center;
+	max-height:8vh;
+	max-width:8vh;
+	border: 1px solid black;
+	border-radius: 50%;
+	justify-content:center;
+}
+.default-logo{
+	display:flex;
+	justify-content:center;
+}
+.profile-porfolio {
+	display:flex;
+	justify-content:center;
+	padding-bottom: 5vh;
+	 .Logo {
+	 	border-radius: 50%;
+
+	 	height: 30vh;
+	 	width: 30vh;
+	 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+
+	 }
+}
+
+.Logo {
+	margin-bottom:2vh;
+	border-radius: 50%;
+	height: 11vh;
+	width: 11vh;
+	box-shadow: 0 4px 8px 0 linear-gradient(to right bottom, rgba(240, 59, 20, 0.7), rgba(255, 64, 0, 0.5));	
+}
+
+/*for glass design ng porfolio*/
+.main-container {
+	background: linear-gradient(to right top, #000000, #333333);
+	max-height:100%;
+	}
+.row {
+	max-height:100%;
+	padding: 100px 0;
+	background:white;
+	box-shadow: 0 4px 8px 0 linear-gradient(to right bottom, rgba(240, 59, 20, 0.7), rgba(255, 64, 0, 0.5));
+	background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+	position: relative; 
+	z-index: 5;
+	backdrop-filter: blur(2rem);
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+	background:white;
+	box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 0.2);
+	
+	height:20rem;
+	width:20rem;
+	position: fixed; 
+   	z-index: 1; 
+   	border-radius:50%;
+   	
+  
+}
+
+.circle1 {
+	top: 20%;
+	right:20%;
+	background: linear-gradient(
+		to right bottom, 
+		rgba(0, 13, 51, 1),
+		rgba(77, 121, 255, 0.5),
+	);
+}
+.circle2 {
+	bottom:5%;
+	left:0%;
+	background: linear-gradient(
+		to right bottom, 
+		rgba(255, 64, 0, 1),
+		rgba(195, 0, 255, 0.5),
+	);
+
+}
+.circle3 {
+	bottom:5%;
+	right:1%;
+	background: linear-gradient(
+		to right bottom, 
+		rgba(153, 0, 0, 1),
+		rgba(0, 0, 0, 0.5),
+	);
+
+}
+.circle4 {
+	height:10rem;
+	width:10rem;
+	bottom: 60%;
+	left:5%;
+	background: linear-gradient(
+		to right bottom, 
+		rgba(255, 0, 0, 1),
+		rgba(191, 0, 255, 0.5),
+	);
+
+}
+
+.dashboard{
+	color:#fff;
+	padding-top: 2vh;
+	background:black;
+	box-shadow: 0 4px 8px 0 linear-gradient(to right bottom, rgba(240, 59, 20, 0.7), rgba(255, 64, 0, 0.5));
+	background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.5), rgba(93, 62, 192, 0.4), rgba(255, 255, 255, 0.1));
+	border-radius: 2rem;
+	backdrop-filter: blur(8rem);
+}
+
+
+.footer {
+	margin: 10vh;
+	padding: 2vh;
+	background:white;
+	box-shadow: 0 4px 8px 0 linear-gradient(to right bottom, rgba(240, 59, 20, 0.7), rgba(255, 64, 0, 0.5));
+	background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.5), rgba(93, 62, 192, 0.4), rgba(255, 255, 255, 0.1));
+	border-radius: 2rem;
+	backdrop-filter: blur(8rem);
+}
+
+.card-detail{
+	margin: 2vh;
+	padding: 5vh;
+	color:#fff;
+	background:white;
+	box-shadow: 0 4px 8px 0 linear-gradient(to right bottom, rgba(240, 59, 20, 0.7), rgba(255, 64, 0, 0.5));
+	background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.5), rgba(93, 62, 192, 0.4), rgba(255, 255, 255, 0.1));
+	border-radius: 2rem;
+	transition: 0.5%;
+	backdrop-filter: blur(8rem);
+	h6 {
+		transform:translateY(100px);
+		opacity:0;
+	}
+	h6:hover {
+		pointer-events: pointer;
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
+
+
+//carousel cards
+	
+.card-carousel {
+	position:relative;
+	width: 300px;
+	height: 440px;
+	background: #fff;
+	margin: 20px;
+	border-radius: 20px;
+	overflow:hidden;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+	transition:0.5s;
+}
+.card-carousel .circle-carousel {
+	position: relative;
+	width: 100%;
+	height:100%;
+	background:linear-gradient(
+		to right bottom, 
+		rgba(255, 0, 0, 1),
+		rgba(191, 0, 255, 0.5)
+	);
+	clip-path:circle(180px at center 0);
+	text-align:center;
+}
+
+.card-carousel .circle-carousel h6 {
+	color: #fff;
+	font-size: 2.25em;
+	padding: 30px 0;
+}
+
+.card-carousel .content-carousel {
+	position: absolute;
+	bottom: 10px;
+	page-break-after: 20px;
+	text-align:center;
+}
+
+.container-carousel:hover  .card-carousel{
+	filter: blur(5px);
+	transform: scale(0.9);
+	opacity:0.8;	
+}
+
+.container-carousel .card-carousel:hover {
+	filter: blur(0px);
+	transform: scale(1.0);
+	background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+	//overflow:visible;
+	opacity:1;
+	font-weight:500;
+	color:#fff;
+	text-shadow:0 0 10px cyan,
+              0 0 20px cyan,
+              0 0 40px cyan,
+              0 0 80px cyan,
+              0 0 120px cyan; 
+	box-shadow:0 0 10px cyan,
+              0 0 20px cyan,
+              0 0 40px cyan,
+              0 0 80px cyan,
+              0 0 120px cyan;  	
+}
+
+//email designs
+	
+.email-form{
+	padding: 120px 0;
+	padding: 10px;	
+	margin: 10px;
+	font-family: san-serif;
+	
+	.form-group{
+		width: 100%;
+		box-shadow: 0 0 10px red;
+		padding: 40px;
+		background:linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+	}
+	
+	.form {
+		height: 40px;
+		width: 100%;
+		position: relative;
+		margin-bottom: 5vh;
+		position:relative;
+	}
+	
+	.form input, .textarea  {
+		height:100%;
+		width:100%;
+		border: none;
+		font-size:17px;
+		border-bottom: 2px solid red;
+		background: transparent;
+		color:#fff;
+	}
+
+	.form input:focus ~ label,
+	.form input:valid ~ label{
+		transform: translateY(-30px);
+	}
+
+	.form .textarea:focus ~ label,
+	.form .textarea:valid ~ label{
+		transform: translateY(-30px);
+	}
+
+	.form input:focus ~ .underline:before,
+	.form input:valid ~ .underline:before{
+		transform: scaleX(1);
+	}
+
+	.form label {
+		font-size: 24px;
+		font-weight: 700;
+		color:#fff;
+		position: absolute;
+		bottom: 0;
+		left:0;
+		text-shadow:0 0 1px cyan,
+			   0 0 2px cyan,
+			   0 0 4px cyan;	
+		pointer-events: none;
+		transition:all 0.3s ease;
+	}
+
+	.form .underline {
+		position:absolute;
+		bottom: 0px;
+		height: 4px;
+		width: 100%;
+	}
+
+	.form .underline:before{
+		position:absolute;
+		content:"";
+		height: 100%;
+		width:100%;
+		background: cyan;
+		transform: scaleX(0);
+		transition:transform 0.3s ease;
+	}
+
+	.submitBtn{
+		margin: 50px 0;	
+		
+	}
+}
+
+
+
+
+
+
